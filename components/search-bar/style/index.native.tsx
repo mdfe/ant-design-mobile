@@ -30,7 +30,6 @@ export default {
     paddingBottom: 0,
   },
   wrapper: {
-    backgroundColor: variables.search_bar_fill,
     height: variables.search_bar_height,
     paddingLeft: variables.h_spacing_md,
     paddingRight: variables.h_spacing_md,
