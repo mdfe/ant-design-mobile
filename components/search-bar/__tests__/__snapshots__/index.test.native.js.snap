@@ -5,7 +5,7 @@ exports[`SearchBar renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "#f5f5f9",
+      "backgroundColor": "#efeff4",
       "flexDirection": "row",
       "height": 44,
       "paddingLeft": 8,
