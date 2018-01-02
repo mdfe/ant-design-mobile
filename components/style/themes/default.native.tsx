@@ -155,7 +155,7 @@ export default {
   toast_fill: 'rgba(0, 0, 0, .8)',
 
   // search_bar
-  search_bar_fill: '#f5f5f9',
+  search_bar_fill: '#efeff4',
   search_bar_height: 44,
   search_bar_input_height: 28,
   search_bar_font_size: 15,
