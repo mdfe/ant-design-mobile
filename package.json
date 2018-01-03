@@ -1,6 +1,6 @@
 {
   "name": "@mdfe/antd-mobile",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "基于 React 的移动设计规范实现",
   "homepage": "http://mobile.ant.design",
   "keywords": [
@@ -143,7 +143,7 @@
     "test:all": "./scripts/test-all.sh",
     "authors": "git log --format='%aN <%aE>' | sort -u | grep -v 'users.noreply.github.com' > AUTHORS.txt",
     "dist": "cross-env BABEL_ENV=dist antd-tools run dist",
-    "compile": "cross-env BABEL_ENV=dist antd-tools run compile && npm run add-tip",
+    "compile": "cross-env BABEL_ENV=dist antd-tools run compile",
     "watch-tsc": "antd-tools run watch-tsc",
     "clean": "antd-tools run clean",
     "start": "cross-env NODE_ENV=development concurrently \"cross-env DEMO_ENV=react bisheng start -c ./site/bisheng.desktop.config.js\" \"cross-env DEMO_ENV=preact bisheng start -c ./site/bisheng.kitchen.config.js\"",
