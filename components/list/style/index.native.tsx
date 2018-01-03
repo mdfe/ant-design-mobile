@@ -32,8 +32,6 @@ export default {
     right: 0,
     height: 1,
     backgroundColor: variables.fill_base,
-    borderBottomWidth: StyleSheet.hairlineWidth,
-    borderBottomColor: variables.border_color_base,
   },
   Item: {
     flexGrow: 1,
@@ -49,8 +47,6 @@ export default {
     paddingRight: variables.h_spacing_lg,
     paddingVertical: variables.v_spacing_sm,
     minHeight: variables.list_item_height,
-    borderBottomWidth: StyleSheet.hairlineWidth,
-    borderBottomColor: variables.border_color_base,
   },
   Thumb: {
     width: variables.icon_size_md,
