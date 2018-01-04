@@ -5,7 +5,7 @@
 
 .@{accordionPrefixCls} {
   position: relative;
-  &:after {
+  &:before {
     height: 0!important;
   }
   .hairline('top');
@@ -26,6 +26,9 @@
       overflow: hidden;
       padding-left: @h-spacing-lg;
       padding-right: 2 * @h-spacing-lg;
+      &:after {
+        height: 0!important;
+      }
       .hairline('bottom');
       .ellipsis();
 
