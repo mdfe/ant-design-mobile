@@ -5,7 +5,9 @@
 
 .@{accordionPrefixCls} {
   position: relative;
-  height: 0!important;
+  &:after {
+    height: 0!important;
+  }
   .hairline('top');
 
   &-anim-active {
@@ -57,7 +59,9 @@
         font-size: @font-size-subhead;
         color: @color-text-paragraph;
         position: relative;
-        height: 0!important;
+        &:after {
+          height: 0!important;
+        }
         .hairline('bottom');
 
         .am-list-body {
