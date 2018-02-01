@@ -169,6 +169,9 @@ export default class SearchBar extends React.Component<SearchBarProps, SearchBar
   focus = () => {
     this.inputRef.focus();
   }
+  blur = () => {
+    this.inputRef.blur();
+  }
   render() {
     const {
       prefixCls, showCancelButton, disabled, placeholder, className, style, maxLength,
